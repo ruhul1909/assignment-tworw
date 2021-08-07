@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav li:hover{
+    background-color: blue;
+
+}
+nav li a{
+    text-decoration: none;
+    color: tomato;
+}
+.login{
+    color: white;
+    margin-left: 620px;
+    background-color: red;
+    padding: 10px 24px;
+}
+.fas{
+    margin: 10px;
+}
+/* main */
+
+
+
+
+/* Section one */
+.top-part{
+    background-color:navy;
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    padding-left: 156px;
+    padding-top: 207px;
+}
+h1{
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    size: 64px;
+    line-height: 80px;
+
+}
+.half{
+    width: 50%;
+
+}
+
+.link{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.half img{
+    width: 556px;
+    height: 438px;
+    transition: width 7s, ease 1s, hight 5s, transform 1s;
+
+}
+
+.half img:hover{
+    width: 700px;
+    height: 700;
+    transform: rotate(15deg);
+
+}
+/* Section two */
+/* world-12 */
+.players{
+    background-color: rgb(241, 246, 248);
+    width: 1440px;
+    padding-top: 70px;
+    padding-right: 210px;
+    padding-left: 180px;
+    padding-bottom: 165px;
+}
+.world-12 img{
+    width: 300px;
+    height: 256px;
+}
+
+.world-12{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player{
+    background-color: #FFFFFF;
+    width: 70%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 15);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding: 15px 15px;
+    padding right: 15px;
+    margin-top: 27px;
+    column-gap: 0px;
+    display:grid;
+    flex-direction: column;
+}
+
+p{
+    color: gray;
+}
+h2{
+    color: black;
+}
+
+/* section three */
+.highlights{
+    background-color: rgb(241, 246, 248);
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    padding-left: 156px;
+    padding-top: 207px;
+}
+.watch-highlights{
+    color: black;
+    size: 48px;
+    line height: 60px;
+}
+.pic{
+    width: 567px;
+    height: 427px;
+}
+
+/* footer style */
+
+
+footer {
+    background-color: white;
+    text-align:center;
+    justify-content: center;
+    cursor: zoom-in;
+    margin-left: 517px;
+    margin-right: 439px;
+    top: 3455px;
+    margin-bottom: 82px;
+    
+}
+footer img{
+    width: 483px;
+    height: 100px;
+    
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+}
+.icon i{
+    background-color: rgb(224, 221, 221);  
+    width: 50px 40px;
+}
+
+
+/* media queries */
+
+/* copied */
+@media only screen and (max-width:688px){
+    .top-part{
+        width: 100%;
+    }
+    .half, .player, .logo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+}
